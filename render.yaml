@@ -2,8 +2,9 @@ services:
   - type: web
     name: saini-bot
     env: python
+    pythonVersion: "3.11.9"
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn app:app & python modules/main.py
+    startCommand: gunicorn app:app & python main.py
     envVars:
       - key: API_ID
         sync: false
