@@ -1,0 +1,15 @@
+pyrogram==2.0.106
+tgcrypto
+pyromod
+aiohttp
+aiofiles
+requests
+yt-dlp
+pytube
+m3u8
+cloudscraper
+pycryptodome
+beautifulsoup4
+ffmpeg-python
+pytz
+flask
